@@ -1,0 +1,223 @@
+{
+  "cityName": "Altstadt",
+  "tempMinKelvin": 267.295,
+  "tempMaxKelvin": 286.67,
+  "timeseries": [
+    {
+      "timestampUtcMs": 1487246400000,
+      "tempKelvin": 286.67,
+      "weatherCondition": "Rain",
+      "weatherIcon": "09d"
+    },
+    {
+      "timestampUtcMs": 1487257200000,
+      "tempKelvin": 285.66,
+      "weatherCondition": "Drizzle",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487268000000,
+      "tempKelvin": 277.05,
+      "weatherCondition": "Thunderstorm",
+      "weatherIcon": "11d"
+    },
+    {
+      "timestampUtcMs": 1487278800000,
+      "tempKelvin": 272.78,
+      "weatherCondition": "Rain",
+      "weatherIcon": "09d"
+    },
+    {
+      "timestampUtcMs": 1487289600000,
+      "tempKelvin": 273.341,
+      "weatherCondition": "Drizzle",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487300400000,
+      "tempKelvin": 275.568,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10n"
+    },
+    {
+      "timestampUtcMs": 1487311200000,
+      "tempKelvin": 276.478,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10n"
+    },
+    {
+      "timestampUtcMs": 1487322000000,
+      "tempKelvin": 276.67,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487332800000,
+      "tempKelvin": 278.253,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487343600000,
+      "tempKelvin": 276.455,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487354400000,
+      "tempKelvin": 275.639,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10n"
+    },
+    {
+      "timestampUtcMs": 1487365200000,
+      "tempKelvin": 275.459,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10n"
+    },
+    {
+      "timestampUtcMs": 1487376000000,
+      "tempKelvin": 275.035,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10n"
+    },
+    {
+      "timestampUtcMs": 1487386800000,
+      "tempKelvin": 274.965,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10n"
+    },
+    {
+      "timestampUtcMs": 1487397600000,
+      "tempKelvin": 274.562,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10n"
+    },
+    {
+      "timestampUtcMs": 1487408400000,
+      "tempKelvin": 275.648,
+      "weatherCondition": "Rain",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487419200000,
+      "tempKelvin": 277.927,
+      "weatherCondition": "Snow",
+      "weatherIcon": "13d"
+    },
+    {
+      "timestampUtcMs": 1487430000000,
+      "tempKelvin": 278.367,
+      "weatherCondition": "Rain",
+      "weatherIcon": "09d"
+    },
+    {
+      "timestampUtcMs": 1487440800000,
+      "tempKelvin": 273.797,
+      "weatherCondition": "Thunderstorm",
+      "weatherIcon": "11d"
+    },
+    {
+      "timestampUtcMs": 1487451600000,
+      "tempKelvin": 271.239,
+      "weatherCondition": "Snow",
+      "weatherIcon": "13d"
+    },
+    {
+      "timestampUtcMs": 1487462400000,
+      "tempKelvin": 269.553,
+      "weatherCondition": "Rain",
+      "weatherIcon": "09d"
+    },
+    {
+      "timestampUtcMs": 1487473200000,
+      "tempKelvin": 268.198,
+      "weatherCondition": "Drizzle",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487484000000,
+      "tempKelvin": 267.295,
+      "weatherCondition": "Thunderstorm",
+      "weatherIcon": "11d"
+    },
+    {
+      "timestampUtcMs": 1487494800000,
+      "tempKelvin": 272.956,
+      "weatherCondition": "Rain",
+      "weatherIcon": "09d"
+    },
+    {
+      "timestampUtcMs": 1487505600000,
+      "tempKelvin": 277.422,
+      "weatherCondition": "Drizzle",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487516400000,
+      "tempKelvin": 277.984,
+      "weatherCondition": "Thunderstorm",
+      "weatherIcon": "11d"
+    },
+    {
+      "timestampUtcMs": 1487527200000,
+      "tempKelvin": 272.459,
+      "weatherCondition": "Snow",
+      "weatherIcon": "13d"
+    },
+    {
+      "timestampUtcMs": 1487538000000,
+      "tempKelvin": 269.473,
+      "weatherCondition": "Rain",
+      "weatherIcon": "09d"
+    },
+    {
+      "timestampUtcMs": 1487548800000,
+      "tempKelvin": 268.793,
+      "weatherCondition": "Thunderstorm",
+      "weatherIcon": "11d"
+    },
+    {
+      "timestampUtcMs": 1487559600000,
+      "tempKelvin": 268.106,
+      "weatherCondition": "Snow",
+      "weatherIcon": "13d"
+    },
+    {
+      "timestampUtcMs": 1487570400000,
+      "tempKelvin": 267.655,
+      "weatherCondition": "Rain",
+      "weatherIcon": "09d"
+    },
+    {
+      "timestampUtcMs": 1487581200000,
+      "tempKelvin": 273.75,
+      "weatherCondition": "Drizzle",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487592000000,
+      "tempKelvin": 279.302,
+      "weatherCondition": "Thunderstorm",
+      "weatherIcon": "11d"
+    },
+    {
+      "timestampUtcMs": 1487602800000,
+      "tempKelvin": 279.343,
+      "weatherCondition": "Rain",
+      "weatherIcon": "09d"
+    },
+    {
+      "timestampUtcMs": 1487613600000,
+      "tempKelvin": 274.443,
+      "weatherCondition": "Drizzle",
+      "weatherIcon": "10d"
+    },
+    {
+      "timestampUtcMs": 1487624400000,
+      "tempKelvin": 272.424,
+      "weatherCondition": "Thunderstorm",
+      "weatherIcon": "11d"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  .tile {
+    min-width: 6.9rem;
+    height: 6.9rem;
+    margin: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .secondaryTiles {
+    display: flex;
+    @media (max-width: 800px) {
+      order: 1;
+    }
+  }
+
+  .cityName {
+    line-height: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .weatherStateIcon {
+    object-fit: contain;
+  }
+
+  .typeAndMinMax {
+    display: flex;
+    height: 1.2rem;
+    justify-content: space-between;
+  }
+
+  .weatherType {
+    display: inline-block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  .minMaxTemp {
+    margin-left: .5rem;
+    span {
+      display: inline-block;
+      height: 1.2rem;
+      line-height: 1.2rem;
+    }
+  }
+
+  .currentTemp {
+    font-size: 5.16rem;
+    height: 5.4rem;
+    line-height: 5.4rem;
+    text-align: center;
+    color: #FFF;
+    margin-top: .67rem;
+  }
+
+  .dayOfWeek {
+    font-size: 2rem;
+    line-height: 2.7rem;
+    height: 2.7rem;
+    color: #FFF;
+    margin-top: .67rem;
+  }
+
+  .dayAndMonth {
+    font-size: 2rem;
+    line-height: 2.7rem;
+    height: 2.7rem;
+    color: #FFF;
+  }
+}
+
+.HeaderPlaceholder {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  padding: 1rem;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  @keyframes loading-pulse {
+    from { opacity: 1; }
+    to   { opacity: .4; }
+  }
+
+  div {
+    display: flex;
+  }
+
+  span {
+    width:  9rem;
+    height: 7.9rem;
+    margin: .5rem;
+    flex-shrink: 0;
+    animation: fade-in 2s ease-in-out forwards, loading-pulse 1s ease-in-out 2s infinite alternate;
+    background: #51557A;
+  }
+  &> span {
+    width: 10rem;
+  }
+}
