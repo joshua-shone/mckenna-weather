@@ -35,3 +35,12 @@ The Jest-based client-side tests may be run with:
 cd client/
 npm test
 ```
+
+## Source formatting
+
+All frontend code is formatted with [Prettier](https://prettier.io/), which can be invoked with:
+
+```bash
+cd mckenna-weather/
+npm run pretty
+```
