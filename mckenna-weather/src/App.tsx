@@ -1,11 +1,11 @@
-import React, {useState, useEffect, useCallback} from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import styles from './App.module.scss';
 
-import Header, {HeaderPlaceholder} from './Header';
-import ForecastList, {ForecastListPlaceholder} from './ForecastList';
+import Header, { HeaderPlaceholder } from './Header';
+import ForecastList, { ForecastListPlaceholder } from './ForecastList';
 import ErrorModal from './ErrorModal';
 
-import {Forecast} from './types';
+import { Forecast } from './types';
 
 interface Props {
   fetchForecast: () => Promise<Forecast>,

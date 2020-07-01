@@ -164,9 +164,9 @@ func createApiResponse(openWeatherForecast *OpenWeather_Forecast) (*ApiResponse,
       // Replace the non-rainy weather condition from OpenWeather with a rainy one
       // A different rainy condition is chosen from the list on each hour
       hour := listItem.Dt / int64(time.Hour / time.Second)
-      weatherCondition := rainyWeatherConditions[hour % int64(len(rainyWeatherConditions))]
-      apiResponseTimeseries[index].WeatherCondition = weatherCondition.Main
-      apiResponseTimeseries[index].WeatherIcon = weatherCondition.Icon
+      rainyCondition := rainyWeatherConditions[hour % int64(len(rainyWeatherConditions))]
+      apiResponseTimeseries[index].WeatherCondition = rainyCondition.Main
+      apiResponseTimeseries[index].WeatherIcon = rainyCondition.Icon
     }
   }
 
