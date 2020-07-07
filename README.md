@@ -19,7 +19,7 @@ go run server.go
 Then set-up and start the React development server:
 
 ```bash
-cd mckenna-weather/
+cd client/
 npm install
 npm start
 ```
@@ -32,6 +32,6 @@ The app will be served at [localhost:3000](http://localhost:3000/) by default
 The Jest-based client-side tests may be run with:
 
 ```bash
-cd mckenna-weather/
+cd client/
 npm test
 ```

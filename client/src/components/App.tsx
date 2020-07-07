@@ -5,7 +5,7 @@ import Header, { HeaderPlaceholder } from "./Header";
 import ForecastList, { ForecastListPlaceholder } from "./ForecastList";
 import ErrorModal from "./ErrorModal";
 
-import { Forecast } from "./types";
+import { Forecast } from "../types/forecast";
 
 interface Props {
   fetchForecast: () => Promise<Forecast>;

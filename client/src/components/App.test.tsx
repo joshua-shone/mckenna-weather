@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
-import mockApiResponse from "./mock_api_response.json";
+import mockApiResponse from "../test_data/mock_api_response.json";
 
 test("displays expected weather info for mock API response", async () => {
   async function fetchForecast() {

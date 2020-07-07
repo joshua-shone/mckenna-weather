@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./ForecastList.module.scss";
 
-import { TimeseriesItem } from "./types";
+import { TimeseriesItem } from "../types/forecast";
 
 interface Props {
   timeseries: TimeseriesItem[];
